@@ -1,0 +1,336 @@
+
+body {
+    background-color: #faedc6;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: burlywood;
+}
+
+.izquierda {
+    float: left;
+    width: 20%;
+    background-color: burlywood;
+    text-align: center;
+    margin: 10px;
+    padding: 30px;
+    gap: 10px;
+}
+
+.centro {
+    float: left;
+    width: 30%;
+    margin-left: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.derecha {
+    width: 20%;
+    background-color: burlywood;
+    margin-left: 75%;
+    text-align: center;
+    padding: 30px;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    border: 1px solid #080808;
+    background-color: rgb(172, 127, 68);
+    justify-content: center;
+    padding: 10px 10px;
+    margin: auto;
+    box-shadow: 0 2px 8px rgba(160, 82, 45, 0.15);
+    gap: 30px;
+}
+
+nav ul a {
+    padding: 10px 20px;
+    color:black;
+    text-decoration: none;
+}
+
+nav li img {
+    display: flex;
+    list-style: none;
+}
+
+.nav a:hover {
+    color: #e2c48d;
+}
+
+p {
+    font-family: 'Segoe UI', 'Arial', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(90deg, #f5deb3 0%, #ffe4b5 100%);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(160, 82, 45, 0.15);
+    padding: 15px;
+}
+
+
+
+.imagen {
+    padding-left: 10%;
+    cursor: pointer;
+}
+
+.galeria {
+    width: 250px;
+    height: 300px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px #5c3a0c(160, 82, 45, 0.10);
+}
+
+.galeria:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+h1 {
+    width: 400px;
+    text-align: center;
+    color:#5c3a0c;
+    text-decoration: underline;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 2.5rem;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    padding: 20px;
+    font-size: 1.2rem;
+    color: #8b5c2a;
+    background: linear-gradient(90deg, #ffe4b5 0%, #f5deb3 100%);
+    border-radius: 8px;
+    margin: 24px auto;
+    width: 85%;
+    box-shadow: 0 2px 8px rgba(160, 82, 45, 0.12);
+    font-family: 'Segoe UI', 'Arial', 'Helvetica Neue', sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1rem;
+    color: #8b5c2a;
+    background: linear-gradient(90deg, #ffe4b5 0%, #f5deb3 100%);
+    border-radius: 6px;
+    padding: 10px 0;
+    margin: 10px auto;
+    width: 80%;
+    box-shadow: 0 2px 6px rgba(160, 82, 45, 0.10);
+    font-family: 'Segoe UI', 'Arial', 'Helvetica Neue', sans-serif;
+    text-decoration: underline;
+}
+
+form {
+    width: 40%;
+    margin-left: 30%;
+    text-size-adjust: initial;
+}
+form label,
+form input,
+form textarea,
+form select,
+form button {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+form input,
+form textarea,
+form select {
+    padding: 8px;
+    border: 1px solid #c2a77d;
+    border-radius: 5px;
+    background: #fff8e1;
+    margin-bottom: 15px;
+}
+
+form button {
+    background-color: burlywood;
+    color: #5c3a0c;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+form button:hover {
+    background-color: #e2c48d;
+}
+fieldset {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-indent: 5px;
+    line-height: 10px;
+}
+.mapa {
+    display: block;
+    width: 60%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.mapa:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-out;
+}
+
+.datos {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px #501900ee;
+    width: 30%;
+    list-style: none;
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px #501900ee;
+}
+
+.formulario {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.marca {
+    background-color: #faedc6;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(80, 25, 0, 0.932);
+}
+
+.portada {
+    width: 240px;
+    height: 300px;
+    cursor: pointer;
+}
+
+
+textarea {
+    width: 200px;
+    height: 100px;
+}
+
+.pie{
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background: linear-gradient(90deg, #f5deb3 0%, #ffe4b5 100%);
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(160, 82, 45, 0.10);
+}
+
+
+.politicas {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 150px;
+    margin-left: 0;
+}
+
+.politicas a:hover {
+    color: #e2c48d;
+}
+.redes {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    list-style: none;
+    margin-left: 35%;
+}
+
+.redes img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+
+    
+}
+
+.pasos {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    margin: 24px auto;
+    padding: 16px 16px 16px 50px;
+    width: 80%;
+    background: linear-gradient(90deg, #ffe4b5 0%, #f5deb3 100%);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(160, 82, 45, 0.12);
+    font-family: 'Segoe UI', 'Arial', 'Helvetica Neue', sans-serif;
+
+}
+
+@media (max-width: 1000px) {
+    body{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    main{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .izquierda, .centro, .derecha {
+        float: none;
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .politicas {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .redes {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

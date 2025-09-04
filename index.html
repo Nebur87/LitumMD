@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--Iniciamos el head con todo lo necesario a nivel básico-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Final html/css</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <meta name="description" content="Realización del trabajo final del modulo de html y css">
+    <meta name="keywords" content="litofania, lampara, regalo, 3D, impresion3D">
+    <link rel="icon" href="./favicon-litum.png" type="image/jpg">
+</head>
+<!--Dividimos y estructuramos el body. header, main, footer-->
+
+<body>
+
+    <header>
+        <!--Lo primero que colocamos en la web es el logo, con su alt y clase-->
+        <img src="./assets/images/litum-logo.jpg" width="300" height="300" alt="Logotipo de la empresa" class="logo">
+    </header>
+    <main>
+        <!--Después colocamos el navegador que utilizamos para ir de gagina a pagina de nuestra web-->
+        <nav>
+            <ul class="nav">
+                <li class="marca"><a href="index.html">Inicio</a></li>
+                <li><a href="./views/producto.html"> Imágenes </a></li>
+                <li><a href="./views/contacto.html"> Contactanos </a></li>
+                <li><a href="./views/presupuesto.html"> Presupuesto </a></li>
+            </ul>
+        </nav>
+        <!--Título-->
+        <h1>Litofanías en 3D</h1>
+
+
+        <!--Primera sección, class izquierda, con los diferentes div y h2-->
+        <!--Abrimos primera sección-->
+        <section>
+            <div class="izquierda">
+                <h2>¿Por qué confiar en nosotros?</h2>
+                <p>Conoce el Mundo del modelado 3D. Somos profesionales altamente cualificados,
+                    con un equipo compuesto por diseñadores, técnicos y expertos en todo lo referente
+                    a impresoras 3D. No te quedes con las ganas de regalar una maravillosan e inigualable
+                    Lámpara con litofanía en 3D.</p>
+                <h2>Tendencia mundial</h2>
+                <p>La impresión 3D se está convirtiendo en foco de atención en todo el mundo,
+                    por su gran versatilidad y sus innumerables posibilidades a la hora de construir cualquier,
+                    absolutamente cualquier cosa que se te ocurra, desde casas hasta piezas para naves aeroespaciales.
+                    En la ISS tienen impresoras 3D para poder tener todas la piezas que necesiten para restaurarlas
+                    o bien para sustituirlas. Las posibilidades son infinitas.</p>
+            </div>
+        </section>
+        <!--segunda sección, class centro, con los diferentes div y h2-->
+        <section>
+            <div class="centro">
+                <h2>Ilumina tus recuerdos con el arte en 3D</h2>
+                <p>Lámparas personalizadas con tus fotos favoritas, talladas en litofanías 3D únicas. Revive tus
+                    recuerdos,
+                    con las personas que más quieres. Regala momentos inolvidables.</p>
+            </div>
+            <div class="centro">
+                <h2>¿Qué es una litofanía?</h2>
+                <p>Una litofanía es una imagen en relieve 3D que cobra vida cuando se ilumina desde atrás.
+                    Tras un exaustivo control de diseño,
+                    utilizamos la tecnología de impresión 3D para transformar tus fotos en esculturas luminosas que
+                    cuentan
+                    historias.</p>
+            </div>
+            <div class="centro">
+                <!--Para este apartado usamos una lista ordenada ol con los pasos a seguir-->
+                <h2>¿Cómo funciona?</h2>
+                <ol class="pasos">
+                    <li> Sube tu foto favorita</li>
+                    <li> Elige tu modelo de lámpara</li>
+                    <li> Recíbela en casa en pocos días</li>
+                </ol>
+            </div>
+            <div class="centro">
+                <h2>Lo que dicen nuestros clientes</h2>
+                <div class="comentario">
+                    <p>“Nunca imaginé que una foto pudiera cobrar tanta vida. Es el mejor regalo que he
+                        hecho.” <em>- Marta G. Barcelona</em></p>
+                </div>
+            </div>
+        </section>
+        <!--tercera sección, class derecha, con los diferentes div h2 y h3-->
+        <section>
+            <div class="derecha">
+                <h2>Datos de interés</h2>
+                <div>
+                    <h3>La magia de la luz</h3>
+                    <p>La litofanía aprovecha la variación del grosor del material impreso en 3D para crear imágenes.
+                        Las áreas más delgadas permiten que pase más luz, mientras que las más gruesas bloquean más.
+                        Cuando se coloca una fuente de luz detrás (como una lámpara LED), la imagen cobra vida
+                        con detalles sorprendentes y profundidad visual, casi como una fotografía en blanco y negro.
+                    </p>
+                    <h3>Una técnica del siglo XIX con tecnología moderna.</h3>
+                    <p>Aunque parece una innovación moderna, la litofanía tiene raíces históricas:
+                        se originó en el siglo XIX en Europa, cuando se esculpían paneles delgados en porcelana
+                        translúcida.
+                        Hoy, las impresoras 3D han revivido y democratizado esta técnica, permitiendo que cualquiera
+                        pueda
+                        crear retratos, paisajes o ilustraciones con apenas una impresora FDM básica y filamento blanco.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!--En el footer pondremos mediante listas las politicas y los links a redes-->
+
+        <nav>
+            <ul class="politicas">
+                <li><a href="./views/aviso-legal.html">Aviso Legal</a></li>
+                <li><a href="./views/politica.html">Política de Privacidad</a></li>
+                <li><a href="./views/cookies.html">Política de Cookies</a></li>
+            </ul>
+            <div class="pie"> C/ Gran Vía S/N.C.P. 29529. TLF:+34 655877496
+                <a href="#"> litum@pedidos.com</a>
+            </div>
+        </nav>
+        <nav>
+            <ul class="redes">
+                <li><a href="http://facebook.com"><img src="./assets/images/logo-fb.png" width="256" height="256"
+                            alt="Logo de facebook" class="redes"></a></li>
+                <li><a href="http://instagram.com"><img src="./assets/images/logo-insta.png" width="1000"
+                            height="1000" alt="Logo de instagram" class="redes"></a></li>
+                <li><a href="http://tiktok.com"><img src="./assets/images/logo-tiktok.png" width="640" height="640"
+                            alt="Logo de tiktok" class="redes"></a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+<!--cerramos footer, body y html-->
+
+</html>

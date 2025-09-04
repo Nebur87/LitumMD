@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--Iniciamos el head con todo lo necesario a nivel básico-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuesto</title>
+    <link rel="stylesheet" href="./../css/estilos.css">
+    <link rel="icon" href="./../favicon-litum.png" type="image/jpg">
+
+</head>
+<!--Dividimos y estructuramos el body; Header, main, footer-->
+
+<body>
+    <header>
+
+        <img src="./../assets/images/litum-logo.jpg" width="300" height="300" alt="Logotipo de la empresa" class="logo">
+    </header>
+    <main>
+
+        <nav>
+            <!--Después colocamos el navegador que utilizamos para ir de gagina a pagina de nuestra web-->
+            <ul class="nav">
+                <li><a href="./../index.html">Inicio</a></li>
+                <li><a href="producto.html"> Imágenes </a></li>
+                <li><a href="contacto.html"> Contáctanos </a></li>
+                <li class="marca"><a href="presupuesto.html"> Presupuesto </a></li>
+            </ul>
+        </nav>
+        <!--Título-->
+        <h1>Formulario de solicitud</h1>
+        <!--creamos formulario para pedir datos y check box-->
+        <form action="#" method="post">
+            <fieldset>
+                <legend>
+                    Datos Personales
+                </legend>
+                <div class="formulario">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" pattern="[A-ZZa-z]+"
+                        required>
+                </div>
+                <div class="formulario">
+                    <label for="email">E-mail: </label>
+                    <input type="email" name="email" id="email" placeholder="Escribe tu email"
+                        pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}" required>
+                </div>
+                <div class="formulario">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" name="telefono" id="telefono" placeholder="Escribe tu telefono" pattern="[0-9]{9}"
+                        required>
+                </div>
+            </fieldset>
+            <div>
+                <label for="escribenos">Para más información escribe aquí:</label>
+                <textarea name="comentario" id="escribenos" placeholder="Pide más Información" maxlength="150"
+                     rows="5" cols="30" required></textarea>
+            </div>
+            <p>Acepta la política de privacidad
+                <input type="checkbox" value="Aceptar" name="aceptar" id="politica" required><label
+                    for="politica"></label>
+            </p>
+            <p> Acepta la protección de datos:
+                <input type="checkbox" value="Aceptar" name="aceptar" id="datos" required><label for="datos"></label>
+            </p>
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </div>
+        </form>
+    </main>
+    <!--En el footer pondremos mediante listas las politicas y los links a redes-->
+    <footer>
+        <nav>
+            <ul class="politicas">
+                <li><a href="./../views/aviso-legal.html">Aviso Legal</a></li>
+                <li><a href="./../views/politica.html">Política de Privacidad</a></li>
+                <li><a href="./../views/cookies.html">Política de Cookies</a></li>
+            </ul>
+            <div class="pie"> C/ Gran Vía S/N.C.P. 29529. TLF:+34 655877496
+                <a href="#"> litum@pedidos.com</a>
+            </div>
+        </nav>
+        <nav>
+            <ul class="redes">
+                <li><a href="http://facebook.com"><img src="./../assets/images/logo-fb.png" width="256" height="256"
+                            alt="Logo de facebook" class="redes"></a></li>
+                <li><a href="http://instagram.com"><img src="./../assets/images/logo-insta.png" width="1000"
+                            height="1000" alt="Logo de instagram" class="redes"></a></li>
+                <li><a href="http://tiktok.com"><img src="./../assets/images/logo-tiktok.png" width="640"
+                            height="640" alt="Logo de tiktok" class="redes"></a></li>
+            </ul>
+        </nav>
+        <!--cerramos footer, body y html-->
+    </footer>
+</body>
+
+</html>
